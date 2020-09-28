@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff944f"
+    android:id="@+id/fragment_b_flag_selector" >
+
+    <HorizontalScrollView
+        android:id="@+id/fragment_b_flag_selector_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical" >
+
+        <GridLayout
+            android:id="@+id/flagSelectorGridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="16"
+            android:rowCount="16"
+            android:useDefaultMargins="true" >
+
+            <ImageView
+                android:id="@+id/flag_at"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:src="@drawable/flag_at" />
+
+            <ImageView
+                    android:id="@+id/flag_au"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/flag_au" />
+
+            <ImageView
+                android:id="@+id/flag_az"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:src="@drawable/flag_az" />
+
+            <ImageView
+                android:id="@+id/flag_bd"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:src="@drawable/flag_bd" />
+
+            <ImageView
+                android:id="@+id/flag_ca"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:src="@drawable/flag_ca" />
+
+            <ImageView
+                android:id="@+id/flag_ch"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:src="@drawable/flag_ch" />
+
+            <ImageView
+                android:id="@+id/flag_cz"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:src="@drawable/flag_cz" />
+
+            <ImageView
+                android:id="@+id/flag_dk"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:src="@drawable/flag_dk" />
+
+            <ImageView
+                android:id="@+id/flag_es"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:src="@drawable/flag_es" />
+
+            <ImageView
+                android:id="@+id/flag_gr"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:src="@drawable/flag_gr" />
+
+            <ImageView
+                    android:id="@+id/flag_it"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/flag_it" />
+
+            <ImageView
+                android:id="@+id/flag_my"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:src="@drawable/flag_my" />
+
+            <ImageView
+                android:id="@+id/flag_nl"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:src="@drawable/flag_nl" />
+
+            <ImageView
+                android:id="@+id/flag_qa"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:src="@drawable/flag_qa" />
+
+            <ImageView
+                android:id="@+id/flag_uk"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:src="@drawable/flag_uk" />
+
+            <ImageView
+                android:id="@+id/flag_us"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:src="@drawable/flag_us" />
+
+        </GridLayout>
+
+    </HorizontalScrollView>
+
+</ScrollView>

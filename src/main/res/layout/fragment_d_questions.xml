@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_d_questions"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B3ff940d" >
+
+    <HorizontalScrollView
+        android:id="@+id/fragment_d_questions_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical" >
+
+        <GridLayout
+            android:id="@+id/questionsScrollView"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:columnCount="10"
+            android:rowCount="10" >
+
+        </GridLayout>
+
+    </HorizontalScrollView>
+
+</ScrollView>
